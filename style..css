@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+.NavBar{
+    padding-top: 18px;
+}
+#navbar-title{
+    color:white;
+    font-size: 25px;
+}
+.items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#item-table{
+    width: 100%;
+    text-align: canter;
+}
+.Item-img{
+    height: 64px;
+    
+}
+.Item-tag{
+    color:black;
+}
+.Item-tag:hover{
+    color:blueviolet;
+}
+.Shopping-container{
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#shopping-time-img{
+    margin-top: 30px;
+    width: 90vw;
+    height: 60vh;
+}
+.Sales-table{
+    width: 90vw;
+    margin: auto;
+    border:1px solid black;
+    border-collapse:initial; 
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Sales-table-head{
+    background-color: lightseagreen;
+    padding-top: 5px;
+}
+.Information{
+    width: 92vm;
+    margin: 20px;
+    font-size: 16px;
+    list-style-position: inside;
+}
+footer{
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
